@@ -1,0 +1,40 @@
+.stopwatch-app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h1 {
+  margin-bottom: 30px;
+}
+h2 span {
+  padding: 3px 15px;
+  margin: 10px;
+  background-color: pink;
+}
+button {
+  border-radius: 5px;
+  width: auto;
+  height: 35px;
+  padding: 2px 10px;
+  font-size: 16px;
+  margin: 20px 10px;
+}
+
+.btn-start {
+  background-color: #8bc34a;
+  border: 1px solid #8bc34a;
+}
+.btn-stop {
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
+}
+.btn-resume {
+  background-color: #ff9400;
+  border: 1px solid #ff9400;
+}
+.btn-reset {
+  background-color: #00afff;
+  border: 1px solid #00afff;
+}
